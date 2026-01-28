@@ -1,0 +1,77 @@
+{
+    margin: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(222, 185, 136);
+    font: size 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1em;
+}
+header{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    height: 100vh;
+    max-width: 400px;
+    margin-right: auto;
+}
+.container h3{
+    text-decoration: underline overline;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+form{
+    text-align: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+input[type="text"]{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #090909;
+    border-radius: 4px;
+}
+button{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgb(52, 85, 145);
+    color: rgb(32, 31, 31);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}    
+button:hover{
+    background-color: rgb(29, 58, 101);
+    color: rgb(62, 24, 24);
+}
+ol#task li{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:beige;
+    align-self:center;
+    letter-spacing: 0capx;
+    word-spacing: 2px;
+}
+footer{
+
+}
+#task li:hover{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+#task li :active{
+    text-decoration: line-through;
+    color: whitesmoke;
+    font-weight: lighter;
+}
